@@ -21,6 +21,8 @@ endif()
 SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
 SET(LIBRGBMATRIX_DIR "rpi-rgb-led-matrix")
 SET(LIBRGBMATRIX_LIB_DIR ${PROJECT_SOURCE_DIR}/${LIBRGBMATRIX_DIR}/lib)
+SET(LIBCURLCPP_DIR "curlcpp")
+SET(LIBCURLCPP_LIB_DIR ${PROJECT_SOURCE_DIR}/${LIBCURLCPP_DIR}/build/src)
 
 #Include directories
 include_directories("rpi-rgb-led-matrix/include")

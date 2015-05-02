@@ -27,7 +27,7 @@ Raspberry Pi is running a web server to display the temperatures and supply data
 
 The 64x32 LED-matrix from [AdaFruit] id driven by a level converter board and the Raspberry Pi 2.
 
-<a href="img/tempbars.jpg"><img src="img/tempbars.jpg" width="600px"></a>
+<a href="img/tempbars.jpg"><img src="img/tempbars.jpg" width="300px"></a>
 
 Why
 ---

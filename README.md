@@ -27,6 +27,8 @@ Raspberry Pi is running a web server to display the temperatures and supply data
 
 The 64x32 LED-matrix from [AdaFruit] id driven by a level converter board and the Raspberry Pi 2.
 
+<a href="img/tempbars.jpg"><img src="img/tempbars.jpg" width="600px"></a>
+
 Why
 ---
 
@@ -34,6 +36,19 @@ As we are a little lazy and don't want go out the the boiler room to check the t
 so we decided to get the temps on a web-page and a simple LED-display. We could have used a simple TFT but a LED
 is more fun. 
 
+Level converter board
+---------------------
+
+More info as soon as I get the PCB. 
+Display is now connected directly to the Pie but with some flickering.
+
+Software application
+--------------------
+
+Software is still in beta. It uses LED-matrix library to drive the display and Curl to get data from a text file 
+that is stored on the server in the log boiler room (More info about that later).
+
+Check out the [logitempmatrix.cc](./src/logitempmatrix.cc) to get started 
 
 
 
